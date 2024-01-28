@@ -1,28 +1,28 @@
 
-# useNavigationEvent
+# useNextRouteEvent
 
-`useNavigationEvent` is a React hook designed to facilitate handling browser and page navigation events in Next.js applications. This hook provides an easy way to interact with Next.js Router events and respond to various browser events, like `beforeunload`, by executing custom handler functions.
+`useNextRouteEvent` is a React hook designed to facilitate handling browser and page navigation events in Next.js applications. This hook provides an easy way to interact with Next.js Router events and respond to various browser events, like `beforeunload`, by executing custom handler functions.
 
 ## Installation
 
 To install using NPM:
 
 ```
-npm install use-next-navigation-event
+npm install use-next-route-event
 ```
 
 To install using Yarn:
 
 ```
-yarn add use-next-navigation-event
+yarn add use-next-route-event
 ```
 
 ## Usage
 
-Utilize the `useNavigationEvent` hook to register handlers for Next.js router events. Here's a basic usage example:
+Utilize the `useNextRouteEvent` hook to register handlers for Next.js router events. Here's a basic usage example:
 
 ```javascript
-import useNavigationEvent from 'use-next-navigation-event';
+import useNavigationEvent from 'useNextRouteEvent';
 
 function MyApp() {
   // Define your event handlers
