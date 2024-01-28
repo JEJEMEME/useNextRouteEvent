@@ -1,1 +1,1 @@
-export * from './useNavigationEvent';
+export * from './useNextRouteEvent';
