@@ -1,6 +1,6 @@
 {
   "name": "use-next-route-event",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Custom hook for handling navigation events in Next.js applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

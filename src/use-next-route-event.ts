@@ -23,7 +23,7 @@ interface NavigationEventHandlers {
   onWindowBeforeUnload?: (event: BeforeUnloadEvent) => void;
 }
 
-const useNextRouteEvent = (handlers: NavigationEventHandlers) => {
+export const useNextRouteEvent = (handlers: NavigationEventHandlers) => {
   const handlersRef = useRef(handlers);
   const lastNavigationEventStorage = new LocalStorage<LastNavigationEvent>('lastNavigationEvent');
 
@@ -80,5 +80,3 @@ const useNextRouteEvent = (handlers: NavigationEventHandlers) => {
 
   return;
 };
-
-export default useNextRouteEvent;
