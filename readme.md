@@ -21,7 +21,7 @@ yarn add use-next-route-event
 Utilize the `useNextRouteEvent` hook to register handlers for Next.js router events. Here's a basic usage example:
 
 ```javascript
-import useNavigationEvent from 'use-next-route-event';
+import { useNavigationEvent } from 'use-next-route-event';
 
 function MyApp() {
   // Define your event handlers
