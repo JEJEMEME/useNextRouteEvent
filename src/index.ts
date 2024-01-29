@@ -1,1 +1,1 @@
-export * from './useNextRouteEvent';
+export * from './use-next-route-event';

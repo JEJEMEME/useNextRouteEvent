@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import useNextNavigationEvent from '../src/useNextRouteEvent';
+import useNextNavigationEvent from '../src/use-next-route-event';
 import Router from 'next/router';
 
 jest.mock('next/router', () => require('next-router-mock'));
